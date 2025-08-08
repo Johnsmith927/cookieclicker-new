@@ -1,0 +1,16 @@
+{
+  "codes": [
+    {
+      "code": "ABC123",
+      "used": false,
+      "deviceId": null,
+      "lastSeen": null
+    },
+    {
+      "code": "XYZ789",
+      "used": false,
+      "deviceId": null,
+      "lastSeen": null
+    }
+  ]
+}
