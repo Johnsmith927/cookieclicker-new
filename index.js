@@ -13,9 +13,10 @@ app.use(cors());
 app.use(express.json());
 
 const adapter = new JSONFile("db.json");
-const db = new Low(adapter);
+const defaultData = { codes: [], usedCodes: [] };
+const db = new Low(adapter, defaultData);
 await db.read();
-db.data ||= { codes: [] };
+
 
 /*
  db.json entry structure:
